@@ -1,11 +1,11 @@
 import cv2
-import numpy as np 
+# import numpy as np 
 
 key_kill_val  = ord('q') # this can be changed to any val, here it's the 'q' key
 
 def is_valid(val1,val2):
 
-    if((280 <= val1 <=335) and (200 <= val2 <= 265)): # middle scenario
+    if((275 <= val1 <=340) and (190 <= val2 <= 275)): # middle scenario
         return 1
     if((320 <= val1 <= 325) and (130 <= val2 <= 135)): # top scenario
         return 1
